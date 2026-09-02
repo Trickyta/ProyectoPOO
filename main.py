@@ -9,6 +9,10 @@ class Persona:
         print(f"Edad: {self.edad}")
         print(f"Profesión: {self.profesion}")
 
+    def saludar(self):
+        print(f"Hola, soy {self.nombre}")
+
 
 persona = Persona("Ricardo", 22, "Estudiante")
 persona.mostrar_datos()
+persona.saludar()

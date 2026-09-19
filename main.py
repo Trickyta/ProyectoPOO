@@ -5,7 +5,7 @@ class Persona:
         self.profesion = profesion
 
     def mostrar_datos(self):
-        print(f"Nombre: {self.nombre}")
+        print(f"Nombre completo: {self.nombre}")
         print(f"Edad: {self.edad}")
         print(f"Profesión: {self.profesion}")
 

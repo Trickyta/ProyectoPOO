@@ -12,7 +12,11 @@ class Persona:
     def saludar(self):
         print(f"Hola, soy {self.nombre}")
 
+    def mostrar_rol(self):
+        print(f"{self.nombre} participa como estudiante en el proyecto.")
+
 
 persona = Persona("Ricardo", 22, "Estudiante")
 persona.mostrar_datos()
 persona.saludar()
+persona.mostrar_rol()
